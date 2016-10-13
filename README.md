@@ -13,3 +13,5 @@ UID := $(shell id -u $(USERNAME))
 
 DOCKER_BUILD_RUN_CMD=docker run --rm -u $(UID) -v $(CURDIR):/usr/app -w /usr/app $(REGISTRY)/golang:1.7.1
 
+
+
